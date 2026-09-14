@@ -121,17 +121,26 @@
             color: #444;
             font-size: 1.2rem;
             position: relative;
+            min-height: 350px;
+            padding: 1rem;
         }
-    .video-container .twitter-tweet {
-    margin: 0 auto !important;
-    }
-      <div class="video-container">
-    <blockquote class="twitter-tweet" data-media-max-width="560" data-theme="dark">
-        <p lang="en" dir="ltr">Before VS After! It is crazy what you can do with just voiceover. <a                 href="https://t.co/JkirvkSDgX">pic.twitter.com/JkirvkSDgX</a></p>
-        &mdash; C Nick I Video Editor &amp; Motion Designer (@C_edit07) 
-        <a href="https://x.com/C_edit07/status/2093085643848966294?ref_src=twsrc%5Etfw">August 27, 2026</a>
-    </blockquote> 
-    </div>
+
+        /* Prilagođavanje za Twitter embed da zauzme punu širinu kartice */
+        .video-container .twitter-tweet {
+            margin: 0 auto !important;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        .video-placeholder {
+            border: 2px dashed #333;
+            width: 90%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
 
         .work-info {
             padding: 2rem;
@@ -238,11 +247,14 @@
         
         <div class="work-grid">
             
-            <!-- Video 1 -->
+            <!-- Video 1 (XBAE VIDEO - X Embed) -->
             <div class="work-item">
                 <div class="video-container">
-                    <!-- Ubaci YouTube/Vimeo iframe ili <video> tag ovde -->
-                    <div class="video-placeholder">[ VIDEO PREVIEW ]</div>
+                    <blockquote class="twitter-tweet" data-media-max-width="560" data-theme="dark">
+                        <p lang="en" dir="ltr">Before VS After! It is crazy what you can do with just voiceover. <a href="https://t.co/JkirvkSDgX">pic.twitter.com/JkirvkSDgX</a></p>
+                        &mdash; C Nick I Video Editor &amp; Motion Designer (@C_edit07) 
+                        <a href="https://x.com/C_edit07/status/2093085643848966294?ref_src=twsrc%5Etfw">August 27, 2026</a>
+                    </blockquote>
                 </div>
                 <div class="work-info">
                     <h4>XBAE VIDEO</h4>
@@ -304,12 +316,14 @@
         <p>Have a project? Let's make something worth watching.</p>
         
         <div class="social-links">
-            <!-- Dodaj svoje prave linkove umesto "#" -->
+            <a href="https://x.com/C_edit07" target="_blank">X (Twitter)</a>
             <a href="#" target="_blank">YouTube</a>
             <a href="#" target="_blank">Instagram</a>
             <a href="mailto:tvoj.email@gmail.com">Email</a>
         </div>
     </footer>
-<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+    <!-- X (Twitter) Skripta na samom dnu stranice -->
+    <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
