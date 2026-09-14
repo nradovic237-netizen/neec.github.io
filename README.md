@@ -13,7 +13,7 @@
             --accent: #5e6ad2;
         }
 
-        {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -27,7 +27,7 @@
             scroll-behavior: smooth;
         }
 
-        
+        /* Hero Section */
         .hero {
             height: 100vh;
             display: flex;
@@ -215,6 +215,8 @@
         .social-links a:hover {
             border-color: var(--accent);
         }
+
+        /* Responsive */
         @media (min-width: 768px) {
             .work-grid {
                 grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
