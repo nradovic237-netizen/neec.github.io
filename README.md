@@ -124,13 +124,9 @@
             position: relative;
         }
 
-    <div class="video-container">
+  <div class="video-container">
     <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Before VS After! It is crazy what you can do with just voiceover. <a href="https://t.co/JkirvkSDgX">pic.twitter.com/JkirvkSDgX</a></p>&mdash; C Nick I Video Editor &amp; Motion Designer (@C_edit07) <a href="https://x.com/C_edit07/status/2093085643848966294?ref_src=twsrc%5Etfw">August 27, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-    <blockquote class="twitter-tweet">
-        <a href="https://twitter.com/tvoj_username/status/123456789"></a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+</div>
 
         .work-info {
             padding: 2rem;
