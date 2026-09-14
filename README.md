@@ -114,7 +114,6 @@
 
         .video-container {
             width: 100%;
-            aspect-ratio: 16 / 9;
             background: #000;
             display: flex;
             align-items: center;
@@ -123,9 +122,15 @@
             font-size: 1.2rem;
             position: relative;
         }
-
+    .video-container .twitter-tweet {
+    margin: 0 auto !important;
+    }
       <div class="video-container">
-    <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Before VS After! It is crazy what you can do with just voiceover. <a href="https://t.co/JkirvkSDgX">pic.twitter.com/JkirvkSDgX</a></p>&mdash; C Nick I Video Editor &amp; Motion Designer (@C_edit07) <a href="https://x.com/C_edit07/status/2093085643848966294?ref_src=twsrc%5Etfw">August 27, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+    <blockquote class="twitter-tweet" data-media-max-width="560" data-theme="dark">
+        <p lang="en" dir="ltr">Before VS After! It is crazy what you can do with just voiceover. <a                 href="https://t.co/JkirvkSDgX">pic.twitter.com/JkirvkSDgX</a></p>
+        &mdash; C Nick I Video Editor &amp; Motion Designer (@C_edit07) 
+        <a href="https://x.com/C_edit07/status/2093085643848966294?ref_src=twsrc%5Etfw">August 27, 2026</a>
+    </blockquote> 
     </div>
 
         .work-info {
@@ -305,6 +310,6 @@
             <a href="mailto:tvoj.email@gmail.com">Email</a>
         </div>
     </footer>
-
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
